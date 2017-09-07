@@ -1,6 +1,6 @@
 JS的原型链通过\_\_proto\_\_属性来实现的
 
->RayJune注：\_\_proto\_\_是对象才有的属性
+>RayJune注：\_\_proto\_\_是对象（函数也是对象）才有的属性
 
 ```js
 var date = new Date(); // 随便创建一个对象
