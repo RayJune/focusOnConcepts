@@ -9,6 +9,7 @@ Two pages have the same origin if the protocol, port (if one is specified), and 
 提交表单不受同源政策的限制。
 
 如果非同源，共有三种行为受到限制。
+
 *  Cookie、LocalStorage 和 IndexDB 无法读取。
 * DOM 无法获得。
 * AJAX 请求不能发送。
